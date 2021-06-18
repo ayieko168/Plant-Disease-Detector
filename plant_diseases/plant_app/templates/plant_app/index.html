@@ -5,7 +5,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Plant Diseases</title>
+    <title>Kenyan Pathologiste - Diagnose your Plants</title>
   </head>
   <body>
     <div id='name' class='container'>
@@ -29,7 +29,8 @@
 
 
   {% if file_url %}
-  <h2 id='filename'><strong>Plant Name</h2> <h2 id='filename'><strong>{{ plant_name }}</h2>
+  <h4 id='filename'>Plant Name <strong> : {{ plant_name }}</h4>
+  <h4 id='filename'>Diagnosis <strong> : {{ diagnosis }}</h4>
 
   <img src="data:image/png;base64,{{file_url}}" style="width:224px;height:224px;">
   {% endif %}
