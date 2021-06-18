@@ -54,7 +54,7 @@
 
   01. Download the repository by clicking on the download button or type the following command in CMD to clone the repository:
       
-      `git clone https://github.com/saroz014/Plant-Diseases-Recognition.git`
+      `git clone https://github.com/ayieko168/Plant-Disease-Detector.git`
 
   02. Download model from the following link and paste it in the `\plant_diseases\plant_app` folder: 
     https://drive.google.com/file/d/1FZXraDDPqbRTX-QeiQclfojgtoLddxQ_/view
