@@ -2,7 +2,7 @@ from django.shortcuts import render
 from keras.preprocessing import image
 import numpy as np
 from .deeplearning import graph, model, output_list
-import base64
+import base64, json
 
 
 def index(request):
@@ -23,6 +23,8 @@ def index(request):
 
         plant_name = result.split("__")[0]
         diagnosis = result.split("__")[-1]
+
+        diagnosis = diagnosis.replace('_', ' ').title()
 
         return render(request, "plant_app/index.html", 
                         {
