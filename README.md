@@ -51,16 +51,15 @@
   
 # Steps to run the application:
 **This application requires Python 3.6 or higher**
+***Tested On windows 10 using [python 3.6.8](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe)***
 
   01. Download the repository by clicking on the download button or type the following command in CMD to clone the repository:
       
       `git clone https://github.com/ayieko168/Plant-Disease-Detector.git`
 
-  02. Download model from the following link and paste it in the `\plant_diseases\plant_app` folder: 
-    https://drive.google.com/file/d/1FZXraDDPqbRTX-QeiQclfojgtoLddxQ_/view
+  02. Download [model](https://drive.google.com/file/d/1FZXraDDPqbRTX-QeiQclfojgtoLddxQ_/view) from the following link and paste it in the `\plant_diseases\plant_app` folder
 
-  03. (Optional) Create a virtual enviourment. Refer this tutorial to learn how to create a virtual enviourment:
-    https://www.youtube.com/watch?v=APOPm01BVrk
+  03. (Optional) Create a virtual enviourment. Refer this [tutorial](https://www.youtube.com/watch?v=APOPm01BVrk) to learn how to create a virtual enviourment
     **If you create a virtual enviourment, make sure it is activated and you execute all commands from within the virtual enviournment. Skip this step if you are unsure about how it works.**
 
   04. Install required packages:
@@ -75,6 +74,8 @@
     ![](screenshots/runserver_link.JPG "Copy this address")
 
   07. Your application is running. Choose any infected image to get results.
+   
+  08. Test with the plant examples from the `\plant_diseases\examples` folder
 
 
 # install Python3.6 (Ubuntu)
